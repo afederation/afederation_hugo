@@ -1,0 +1,46 @@
+baseURL = "www.alexfederation.com"
+languageCode = "en-us"
+title = "Alex Federation"
+theme = "hugo-whisper-theme"
+
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
+
+[[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 2
+
+[[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+
+[[menu.main]]
+    name = "Publications"
+    url = "/pubs/"
+    weught = 2
+
+[params]
+  google_analytics_id=""
+  homepage_button_link = '/projects'
+  homepage_button_text = 'See My Projects'
+  homepage_intro = "I'm a scientist who studies the way drugs interact with the human genome. My site contains examples of my past work and chronicles my current efforts in learning machine learning skills useful for biology."
+  homepage_image = '/images/dna.jpg'
+
+  [params.homepage_meta_tags]
+    meta_description = "Alex Federation is a scientist who studies the way drugs interact with the human genome."
+    meta_og_title = "Alex Federation"
+    meta_og_type = "website"
+    meta_og_url = "https://alexfederation.com"
+    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-whisper-theme/master/images/tn.png"
+    meta_og_description = "I'm a scientist who studies the way drugs interact with the human genome."
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@afederation"
+    meta_twitter_creator = "@afederation"

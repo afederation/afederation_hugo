@@ -1,0 +1,15 @@
+<div class="sub-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="sub-footer-inner">
+          <ul>
+            <li class="zerostatic"><a href="https://www.twitter.com/afederation">twitter</a></li>
+            <li class="zerostatic"><a href="https://www.github.com/afederation">github</a></li>
+            <li class="zerostatic"><a href="https://www.medium.com/afederation">medium</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
