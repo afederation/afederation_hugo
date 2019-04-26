@@ -24,7 +24,7 @@ pygmentsUseClasses = true
 
 [[menu.main]]
     name = "Publications"
-    url = "/pubs/"
+    url = "/papers/"
     weught = 2
 
 [params]

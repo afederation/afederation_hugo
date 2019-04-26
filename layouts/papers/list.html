@@ -1,4 +1,4 @@
-{{ define "title" }}Hugo Whisper Theme Demo{{ end}}
+{{ define "title" }}Alex Federation - About Me{{ end}}
 {{ define "header_css" }}{{ end }}
 {{ define "body_classes" }}page-home{{ end }}
 {{ define "header_classes" }}{{ end }}
@@ -20,16 +20,17 @@
   <div class="container pt-4 pb-16">
     <div class="row">
       <div class="col-12">
-        <h1 class="title">My Publications</h1>
+        <h1 class="title">Publications</h1>
         <div class="content">
 
-	  <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/50634384/">Here</a> is an up-to-date compilation of my papers on pubmed
+	  {{ .Content }}
 
         </div>
       </div>
     </div>
   </div>
 </div>
+
 {{ end }}
 
 
