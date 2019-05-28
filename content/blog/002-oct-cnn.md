@@ -11,7 +11,7 @@ I'm working through the [fast.ai](http://course.fast.ai) deep learning course th
 
 As a biologist, a Cell paper can be the highlight of one's career. Cell publishes the best work from across all fields of biology, and the [Kermany *et. al.*](http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5) paper from last year represented a breakthrough in applying deep learning to ocular pathology. Briefly, they used an imaging technology called retinal optical coherence tomography (OCT) to image healthy and diseased eyes (3 possible conditions) and employed a panel of expert pathologists to classify them. They had multiple pathologists classify a subset of photos so they could get a measure of how accurate the humans were as well.
 
-![oct image](oct.jpg)
+![oct image](/images/post2/oct.jpg)
 
 Interestingly, they took a similar approach to what we've been working on - transfer learning with a convolutional neural network. Let's see how our simple approach compares.
 
@@ -52,7 +52,7 @@ And we can take a look at the images and labels to make sure all looks good.
 ```python
 data.show_batch(rows=3, figsize=(12,9))
 ```
-![png](output_11_0.png)
+![png](/images/post2/output_11_0.png)
 
 
 ## Train the model
@@ -132,7 +132,7 @@ interp = ClassificationInterpretation.from_learner(learn)
 losses,idxs = interp.top_losses()
 ```
 
-![png](output_20_0.png)
+![png](/images/post2/output_20_0.png)
 
 
 ## Stepping it up - resnet50
@@ -154,7 +154,7 @@ learn.lr_find()
 learn.recorder.plot()
 ```
 
-![png](output_23_2.png)
+![png](/images/post2/output_23_2.png)
 
 
 ```python
