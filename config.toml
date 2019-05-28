@@ -28,7 +28,7 @@ pygmentsUseClasses = true
     weught = 2
 
 [params]
-  google_analytics_id=""
+  google_analytics_id="UA-141042096-1"
   homepage_button_link = '/projects'
   homepage_button_text = 'See My Projects'
   homepage_intro = "I'm a scientist who studies the way drugs interact with the human genome. My site contains examples of my past work and chronicles my current efforts in learning machine learning skills useful for biology."
