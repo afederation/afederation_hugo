@@ -9,4 +9,4 @@ Lately, I've been working on small projects to learn machine learning and how th
 
 Outside of the lab I try to get into the mountains to climb and run as much as I can. I also volunteer with [King County Search and Rescue](https://www.kcesar.org/) to help people having a bad day in the mountains.
 
-[My CV](/cv.pdf)
+[My CV](/pdf/cv.pdf)
